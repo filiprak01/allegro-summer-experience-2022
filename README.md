@@ -9,4 +9,5 @@ In my project I used a following simplifications:
 - After downloading a repository with name the jtextfield with username is not changing its text to blank.
 - After downloading a repository user have to click a repository to check details which means no default language details are uploaded. 
 - Private repositories are not visable, so if all repositories of certain user consist of only private repositories no data will be displayed nor a notification.
-To run an application download .jar file and run it on your machine 
+Aplication instructions:
+- To run an application download Github_repository.jar file and run it on your machine 
