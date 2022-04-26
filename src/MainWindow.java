@@ -19,10 +19,6 @@ public class MainWindow extends JFrame {
     private JTable jt_repositoryDetail;
     private JPanel mainWindow;
     private JButton jb_dataButton;
-
-
-    //getters and setters
-
     //constructor
     public MainWindow(String title) {
         super(title);
@@ -36,9 +32,6 @@ public class MainWindow extends JFrame {
         jt_repositorySelect.getSelectionModel().addListSelectionListener(new tableListener());
     }
 
-    public static void main(String[] args) throws IOException {
-        MainWindow window = new MainWindow("Github repository");
-    }
 
     public List<Map<String, Long>> getMaps() {
         return maps;
@@ -61,7 +54,7 @@ public class MainWindow extends JFrame {
         jt_repositoryDetail = new JTable(model2);
         jt_repositorySelect = new JTable(model1);
     }
-
+    //listeners
     class tableListener implements ListSelectionListener {
         @Override
         public void valueChanged(ListSelectionEvent e) {
@@ -115,5 +108,8 @@ public class MainWindow extends JFrame {
 
             }
         }
+    }
+    public static void main(String[] args) throws IOException {
+        MainWindow window = new MainWindow("Github repository");
     }
 }
