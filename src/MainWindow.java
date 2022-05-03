@@ -12,7 +12,7 @@ import java.util.*;
 
 public class MainWindow extends JFrame {
     //variables
-    private final String token = "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";
+    private final String token = "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";
     private List<Map<String, Long>> maps;
     private JTextField tf_repositoryName;
     private JTable jt_repositorySelect;
