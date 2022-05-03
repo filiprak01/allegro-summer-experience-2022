@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="allegro-summer-experience-2022:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/allegro_summer_experience_2022_jar</output-path>
+    <root id="archive" name="allegro-summer-experience-2022.jar">
+      <element id="module-output" name="allegro-summer-experience-2022" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Github_repository.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
